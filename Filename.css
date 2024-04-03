@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Reg form using Internal  css</title>
+    <style>
+        h1 {color:rgb(78, 172, 133);}
+        p {white-space: pre;}
+        body{background-color:rgb(124, 148, 3);}
+        form{text-align: center;}
+    
+
+    </style>
+</head>
+<body>
+    <!--CSS Style
+    1)Inline, 2)Internal, 2)External
+    -->
+    <!--Inline Css-->
+    <form>
+    <p>
+    <h1 align="center"> Registration Form</h1>  
+    <label name="First">First Name</label> </p>
+    <p><input type="text" name="first"></p>
+    <label name="mid">Mid Name</label>
+    <p><input type="text" name="mid"></p>
+    <label name="last">Last Name</label>
+    <p><input type="text" name="last"></p>
+    <label name="email">Email</label>
+    <p><input type="email" name="email"></p>
+    <label name="Phone">Phone</label>
+    <p><input type="text" name="Phone"></p>
+</form>
+</body>
+</html>
